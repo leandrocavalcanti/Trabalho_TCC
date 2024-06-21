@@ -1,0 +1,622 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.navbar-brand {
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    height: 100px;
+    font-size: 26px;
+
+}
+
+.boas-vindas {
+    position: -ms-page;
+    left: 10;
+    top: 50px;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+}
+
+.containerBoasVindas {
+    margin-top: 15px;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+}
+
+.containerBodyDash {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:center;
+    position: -ms-page;
+    margin: 10px;
+}
+.containerBody {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    position: -ms-page;
+    margin: 10px;
+}
+.arrumarContBod{
+    margin-bottom: 0%;
+    padding: 0%;
+}
+
+.card {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 40px;
+    width: 400px;
+    top: 50px;
+    background-color: #252947;
+    color: white;
+}
+
+h5 {
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-title {
+    font-size: 2.5rem;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: auto;
+}
+
+h2 {
+    margin-top: 30%;
+    margin-bottom: 20%;
+}
+
+#modBtnDash{
+font-size: 2 rem;
+}
+/*titulo d  sortear time*/
+.tSort{
+    margin-top: 10px;
+}
+label {
+    margin: 13px 0 8px 8px;
+}
+
+.btnCriar{
+    margin-top: 15px;
+}
+
+.btnVltCriar{
+    margin-top: 15px;
+}
+
+.textGrupos{
+    text-align: Center;
+    margin: 15px;
+}
+
+.containerGrupo{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    position: -ms-page;
+    margin: 8px 8px 8px 15px;
+
+}
+.nJogSort{
+    display: block;
+}
+/*
+header {
+    margin-top: 0%;
+    position: fixed;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(148, 160, 197);
+    background-image: url('./header.imagem.jpg');
+}
+
+.container-princial {
+    justify-content: space-evenly
+}
+
+img {
+    position: fixed;
+    left: 3%;
+}
+
+.nome-pagina {
+    position: fixed;
+    left: 1.5%;
+    top: 150px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.link-sair {
+    position: fixed;
+    top: 50px;
+    left: 300%;
+    font-size: 0.70em;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+/*--Dashboard--*/
+.cardsCont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding-top: 400px;
+}
+
+.cardUp {
+    border: 1px solid #070707;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    top: 230px;
+    background-color: #252947;
+}
+
+/* Adicione estilos para título e texto do card conforme necessário */
+.textUp {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: rgb(250, 250, 250);
+    font-size: xx-large;
+    text-align: center;
+}
+
+.textPont {
+    position: absolute;
+    top: 250px;
+    left: 40%;
+    transform: translateX(-50%, -50%);
+    background-color: #252947;
+    color: white;
+    width: max-content;
+}
+
+.FormularioStatus {
+    position: absolute;
+    top: 200px;
+    left: 30%;
+    transform: translateX(-50%, -50%);
+}
+
+.btnisertDados {
+    position: absolute;
+    top: 800px;
+    left: 40%;
+    transform: translateX(-50%, -50%);
+    width: 10rem;
+}
+
+.btnAtDados {
+    position: absolute;
+    top: 800px;
+    left: 50%;
+    transform: translateX(-50%, -50%);
+    width: 10rem;
+}
+
+/*--Fim Dashboard--*/
+
+/*--Atualizar Dados--*/
+.btnVoltUp {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transform: translateX(-50%, -50%);
+    width: 16.5rem;
+}
+
+/*--inserir dados--*/
+.insertDados {
+    position: absolute;
+    top: 300px;
+    left: 40%;
+    transform: translateX(-50%, -50%);
+}
+
+.btnVoltInser {
+    position: absolute;
+    top: 800px;
+}
+
+/*--pagina seusgrupos.php--*/
+.tablemygrup {
+    position: absolute;
+    width: 50%;
+    height: 50px;
+    top: 300px;
+    left: 500px;
+    transform: translateX(-50%, -50%);
+    text-align: center;
+}
+
+.nomeTabelaGrupo {
+    position: absolute;
+    top: 220px;
+    left: 40%;
+    transform: translateX(-50%, -50%);
+}
+
+.btnVoltGrupo {
+    position: absolute;
+    width: 300px;
+    top: 800px;
+    left: 850px;
+    text-align: center;
+}
+
+/*--Fim pagina seusGrupos.php-*/
+
+.pillsGrupo {
+    position: absolute;
+    top: 230px;
+    font-size: x-large;
+    left: 5px;
+}
+
+.pillsGrupo :hover {
+    color: rgb(255, 0, 0);
+}
+
+.pills-dashboard {
+    position: absolute;
+    top: 220px;
+    font-size: x-large;
+    left: 5px;
+}
+
+.pills-dashboard :hover {
+    color: rgb(255, 0, 0);
+}
+
+/*--pagina Grupo.php-*/
+
+.btn-voltar {
+    position: absolute;
+    top: 800px;
+    width: 300px;
+    height: 5vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.table {
+    position: relative;
+    border: 2px solid;
+    padding: 2rem;
+    width: max-content;
+    height: max-content;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.qntResult {
+    font-size: 16px;
+
+}
+
+.pesqGrupo {
+    margin-left: 50px;
+}
+
+/*--Fim Pagina Grupo.php--*/
+
+/*--pagina pesquisarGrupo.php--*/
+.tablePesqui {
+    position: relative;
+    width: 50%;
+    height: 50px;
+    top: 250px;
+    left: 500px;
+    text-align: center;
+}
+
+.resulPesqui {
+    position: relative;
+    top: 220px;
+    text-align: center;
+}
+
+/*--fim pagina pesquisarGrupo.php--*/
+.nGrup{
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+/**--paginaGrupo.php--*/
+.tablemyjog {
+    position: relative;
+    padding: 2rem;
+    width: fit-content;
+    border: 2px solid;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btnVoltar {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0px;
+}
+
+/*--Fim pagina Grupo--*/
+
+/*--Pagina sorteioTime.php--*/
+
+#edit-form{
+    display: none;
+}
+
+
+.card ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.card li {
+    margin-bottom: 10px;
+}
+
+.btnSort{
+    position: absolute;
+    top: 800px;
+    left: 40%;
+    transform: translateX(-50%, -50%);
+}
+.container-secundario {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#cronometro {
+    background-color:  rgb(177, 177, 177);
+    padding: 2rem;
+    border-radius: 8px;
+
+}
+
+#timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(177, 177, 177);
+    height: 50px;
+    width: 350px;
+    border: 3px solid #ffff;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 4rem;
+}
+
+#tempo {
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+}
+
+#actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#actions button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    padding: .6rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(90, 88, 88);
+    cursor: pointer;
+}
+
+#actions button:hover {
+    background-color: rgb(176, 192, 192);
+}
+
+#btvoltar {
+    display: flexbox;
+    margin-top: 17rem;
+    width: 250px;
+    height: 50px;
+    left: 100px;
+    margin-left: 50rem;
+}
+
+#btngrupoVoltar {
+    position: absolute;
+    bottom: 0px;
+}
+
+#btnIserDados {
+    position: absolute;
+    margin-bottom: 10PX;
+    left: 90%;
+
+
+}
+
+.valorPlac1 {
+    position: -ms-page;
+    top: 200px;
+    left: 30%;
+}
+
+.nomeTimeA {
+    font-size: xx-large;
+}
+
+.caixaPlac1 {
+    height: 10vh;
+    font-size: 6rem;
+    width: 10vh;
+    text-align: center;
+}
+
+.valorPlac2 {
+    position: -ms-page;
+    top: 200px;
+    right: 30%;
+   
+}
+
+.nomeTimeB {
+    font-size: xx-large;
+}
+
+.caixaPlac2 {
+    height: 10vh;
+    font-size: 6rem;
+    width: 10vh;
+    text-align: center;
+}
+.btnInDe{
+    position: -ms-page;
+}
+.btnEncerrar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btnPlacar{
+    margin-top: 20px;
+}
+.btnVoltSeusGrupos{
+ margin-top: 500px;
+ position: relative;
+ top: 20px;
+
+}
+.btnVoltPgGrup{
+    margin-top: 20px;
+}
+.btnVoltSortTime{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.card-desc{
+    font-size: 1.2rem;
+}
+.btnGrup{
+    margin-bottom: 20px;
+}
+.btnVer{
+    margin-bottom: 5px;
+}
+.containerInicial{
+    background-color: rgb(58, 57, 57);
+}
+
+.btnAtualiza{
+    margin-top: 20px;
+}
+.btnVGrup{
+    margin-top: 0;
+}
+.btnCriarGrup{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+.Containerbtn{
+ margin-top: 15px;
+}
+@media screen and (max-width: 768px) {
+
+    /* Exemplos de ajustes para telas menores */
+    header {
+        height: 150px;
+    }
+
+    .boas-vindas {
+        font-size: 1.5em;
+        bottom: 5%;
+    }
+
+    .nJogSort{
+        display: grid;
+    }
+    .btnSort{
+        display: grid;
+        margin-top: 10px;
+    }
+    .container-secundario{
+        margin-top: 20px;
+    }
+    .card {
+        border: 1px solid white;
+        border-radius: 20px;
+        padding: 40px;
+        width: 350px;
+        top: 50px;
+        background-color: #252947;
+        color: white;
+        margin-left: 30px;
+    }
+
+    .btnVoltSeusGrupos{
+        margin-top: 75px;
+           
+        }
+    /* Ajustes para outras seções conforme necessário */
+}
+
+/* Estilos para telas maiores */
+@media screen and (min-width: 1200px) {
+
+    /* Exemplos de ajustes para telas maiores */
+    .cardsCont {
+        gap: 30px;
+    }
+
+    /* Ajustes para outras seções conforme necessário */
+}
+
+@media (min-width: 576px) {}
